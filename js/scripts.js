@@ -10,7 +10,7 @@ $(function(){
         $("#header").css("background","#fff");
         $("#top").css("background","#fff");
 
-        $(".blacklogo").css("display","block");
+        $(".blacklogo").css("display","inline-block");
         $(".whitelogo").css("display","none");
 
         $(".header_menu>li>a").css("color","#232323");
@@ -21,7 +21,7 @@ $(function(){
         $("#top").css("background","none");
         $(".header_menu>li>a").css("color","#fff");
         
-        $(".whitelogo").css("display","block");
+        $(".whitelogo").css("display","inline-block");
         $(".blacklogo").css("display","none");
 
     });
